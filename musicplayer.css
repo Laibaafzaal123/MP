@@ -1,0 +1,67 @@
+body{
+    background-image:linear-gradient( rgb(244, 69, 156),rgb(170, 4, 170),rgb(63, 185, 233));
+    background-repeat: no-repeat;
+    height:722px ;
+    overflow-x:hidden;
+    overflow-y: hidden;/*//for removing scroller x axis  */
+    margin-left: -450px;
+}
+.l{
+    color: rgb(226, 169, 169);
+    margin-left: 600px;
+    margin-top: -350px;
+}
+#container{
+    /* border-radius: 5px solid ; */
+  background-color: pink;
+  /* margin-left: 500px; */
+    padding: 0px 50px ; 
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10%;
+   }
+   #container:hover{
+    box-shadow: 0px 0px 10px 15px rgb(221, 185, 226), 15px 15px 10px 15px rgb(212, 117, 225);
+   }
+   .logo:hover{
+    border: 8px double rgb(236, 125, 208);
+   }
+   /* .logo:hover{
+     border: none; 
+      box-shadow:0px 0px 10px 5px aqua ; 
+   } */
+img{
+   margin-left:80px;
+}
+#gif{
+    margin-left:13px;
+}
+.l413{
+    margin-left: 100px;
+}
+p,h3{
+    text-align: center;
+}
+#container .logo{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-container h2 {
+    margin-bottom: 10px; /* Heading aur text ke beech gap */
+}
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
